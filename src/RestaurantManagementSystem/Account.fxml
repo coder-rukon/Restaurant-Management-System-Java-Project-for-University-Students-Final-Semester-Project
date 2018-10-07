@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RestaurantManagementSystem.Account">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="469.0" prefWidth="823.0">
+         <children>
+            <Pane layoutX="14.0" layoutY="87.0" prefHeight="327.0" prefWidth="300" styleClass="boxGroup">
+               <children>
+                  <Label fx:id="product_save_meess" layoutX="14.0" layoutY="23.0" prefHeight="17.0" prefWidth="274.0" textFill="#f02626" />
+                  <Label layoutX="14.0" layoutY="97.0" prefHeight="32.0" prefWidth="86.0" text="Total Sales:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="displayTotalSale" layoutX="116.0" layoutY="97.0" prefHeight="32.0" prefWidth="168.0" text="0" textFill="#08e154">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button fx:id="addNewProduct1" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#showDashboard" prefHeight="40.0" prefWidth="119.0" text="DASHBOARD" />
+            <Button fx:id="addNewProduct11" layoutX="152.0" layoutY="24.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="119.0" text="OREDRS" />
+            <Button fx:id="addNewProduct111" layoutX="281.0" layoutY="24.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="119.0" text="INVOICE" />
+            <Button fx:id="addNewProduct112" layoutX="410.0" layoutY="24.0" mnemonicParsing="false" onAction="#showCustomers" prefHeight="40.0" prefWidth="119.0" text="CUSOMERS" />
+            <Button fx:id="addNewProduct113" layoutX="539.0" layoutY="24.0" mnemonicParsing="false" onAction="#showProducts" prefHeight="40.0" prefWidth="119.0" text="PRODUCTS" />
+            <Button fx:id="addNewProduct1131" layoutX="668.0" layoutY="24.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="119.0" text="ACCOUNTS" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

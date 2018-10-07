@@ -1,0 +1,65 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-image: url('../images/loging_bg70.jpg');
+	-fx-background-size:cover;
+	-fx-text-alignment: center;
+}
+.button{
+
+}
+.loging_bg{
+	-fx-background-color: rgba(0,0,0,.0);
+	-fx-alignment: center;
+}
+.login_box_inner{
+	-fx-background-color: rgba(255,255,255,.6);
+	-fx-border-style:solid;
+	-fx-border-color:rgba(255,255,255,.8);
+	-fx-border-width:1px;
+}
+.error_msg{
+	-fx-alignment: center;
+	-fx-text-fill: red;
+	-fx-cell-size: 100%;
+}
+.button{
+	-fx-background-color:#FF339A;
+	-fx-border-style:solid;
+	-fx-border-radius:4px;
+	-fx-border-width:0 0 4px 0;
+	-fx-border-insets: -4px;
+	-fx-border-color:#B5236C;
+	-fx-text-alignment: center;
+	-fx-cursor: hand;
+	-fx-text-fill: #ffffff;
+}
+.button:hover{
+	-fx-background-color:#ff3366;
+	-fx-border-color:#b62449;
+
+}
+.rs_img{
+	-fx-alignment: center;
+}
+.dashbordwidget{
+	-fx-background-color: #00A7F6;
+	-fx-padding: 20px;
+	-fx-border-radius: 10px;
+	-fx-text-alignment: center;
+}
+
+.noticeCircle{
+	-fx-font-size: 20px;
+	-fx-text-fill:#FF339A;
+
+}
+.dashbordTitle{
+	-fx-text-fill: #ff339a;
+	-fx-font-family: algerian;
+	-fx-font-size: 61px;
+	-fx-font-weight: bold;
+	-fx-padding: 0;
+}
+.boxGroup{
+	-fx-background-color:#ffffff;
+}
